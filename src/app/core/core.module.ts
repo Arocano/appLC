@@ -11,7 +11,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-
+import {MatListModule} from '@angular/material/list';
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     PageLoginComponent,
@@ -27,10 +28,13 @@ import {MatButtonModule} from '@angular/material/button';
     MatIconModule,
     MatButtonModule,
     MatToolbarModule,
-    MatMenuModule
+    MatMenuModule,
+    MatListModule,
+    RouterModule
   ],exports:[
     PageLoginComponent,
-    HeaderComponent
+    HeaderComponent,
+    MenuComponent
   ]
 })
 export class CoreModule { }

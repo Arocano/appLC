@@ -1,0 +1,7 @@
+h3{
+    color: white;
+}
+:host{
+    width: 80%;
+    display: block;
+}
