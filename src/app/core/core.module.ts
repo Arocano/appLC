@@ -31,6 +31,7 @@ import { RouterModule } from '@angular/router';
     MatMenuModule,
     MatListModule,
     RouterModule
+
   ],exports:[
     PageLoginComponent,
     HeaderComponent,

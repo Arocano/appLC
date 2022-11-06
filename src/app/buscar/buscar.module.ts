@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { InicioRoutingModule } from './inicio-routing.module';
+import { BuscarRoutingModule } from './buscar-routing.module';
 import { PageListComponent } from './pages/page-list/page-list.component';
 import { ShareModule } from '../share/share.module';
 
@@ -12,8 +12,8 @@ import { ShareModule } from '../share/share.module';
   ],
   imports: [
     CommonModule,
-    InicioRoutingModule,
-    ShareModule 
+    BuscarRoutingModule,
+    ShareModule
   ]
 })
-export class InicioModule { }
+export class BuscarModule { }

@@ -26,6 +26,4 @@ import {MatCardModule} from '@angular/material/card';
   ]
 })
 export class ShareModule { 
-  TitleComponent = TitleComponent;
-  ContainerComponent = ContainerComponent;
 }

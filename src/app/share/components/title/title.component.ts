@@ -13,7 +13,6 @@ export class TitleComponent implements OnInit {
     const currentPath='/'+this.activatedRoute.snapshot.pathFromRoot[1].routeConfig?.path;
     this.path=this.menuService.getMenuByUrl(currentPath);
    }
-
   ngOnInit(): void {
   }
 

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { BusquedaRoutingModule } from './busqueda-routing.module';
+import { CarritoRoutingModule } from './carrito-routing.module';
 import { PageListComponent } from './pages/page-list/page-list.component';
 import { ShareModule } from '../share/share.module';
 
@@ -12,8 +12,8 @@ import { ShareModule } from '../share/share.module';
   ],
   imports: [
     CommonModule,
-    BusquedaRoutingModule,
+    CarritoRoutingModule,
     ShareModule
   ]
 })
-export class BusquedaModule { }
+export class CarritoModule { }

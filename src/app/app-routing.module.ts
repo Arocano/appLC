@@ -4,9 +4,9 @@ import { PageLoginComponent } from './core/pages/page-login/page-login.component
 
 const routes: Routes = [
   {path:'',component:PageLoginComponent},
-  {path:'inicio', loadChildren:() => import('./inicio/inicio.module').then(m => m.InicioModule)},
-  {path:'busqueda', loadChildren:() => import('./busqueda/busqueda.module').then(m => m.BusquedaModule)},
-  {path:'carro', loadChildren:() => import('./carro/carro.module').then(m => m.CarroModule)}
+  {path:'buscar', loadChildren:() => import('./buscar/buscar.module').then(m => m.BuscarModule)},
+  {path:'productos', loadChildren:() => import('./productos/productos.module').then(m => m.ProductosModule)},
+  {path:'carrito', loadChildren:() => import('./carrito/carrito.module').then(m => m.CarritoModule)}
 ];
 
 @NgModule({
