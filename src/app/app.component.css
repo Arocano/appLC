@@ -1,18 +1,23 @@
+
 mat-sidenav-content {
-    min-height: 100ch;
+    min-height: 100px;
+    
 }
 mat-sidenav{
   max-width: 280px;
-  background-color:  rgb(30, 33, 41);
+  background-color: #4F0147;
+ 
 }
 .opciones{
     padding: 0 24px;
-    background-color:  rgb(30, 33, 41);
+    background-color:  #4F0147;
     min-height: 64px;
+   
 }
 .opciones h3{
     padding: 0px;
     margin: 0px;
     line-height: 64px;
     color: white;
+    
 }
