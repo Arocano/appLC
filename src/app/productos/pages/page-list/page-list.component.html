@@ -1,2 +1,18 @@
 <lc-title></lc-title>
-<lc-container></lc-container>
+<lc-container>
+    <perfect-scrollbar class="heigthMaxScrollbar">
+        <lc-table [data]="data" [metaDataColumns]="metaDataColumns"></lc-table>
+        <ng-container matColumnDef="actions">
+            <th mat-header-cell="matHeaderDef"></th>
+            <td mat-cell *matCellDef="let row">
+                <button mat-icon-button color="primary" (click)="openForm()" matTooltip="editar">
+                      <mat-icon>edit</mat-icon>
+                </button>
+                <button mat-icon-button color="accent" (click)="delete(row.id)" matTooltip="eliminar">
+                    <mat-icon>delete</mat-icon>
+              </button>
+            </td>
+        </ng-container>
+    </perfect-scrollbar>
+    <lc-paginator (onChangePage)="changePage($event)"[lenght]="totalRecords"></lc-paginator>
+</lc-container>
